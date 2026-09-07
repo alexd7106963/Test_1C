@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="Configuration.ТестовоеЗадание" id="1b7398e3-cc6e-4019-9b9b-484158f645ad" configVersion="8334c87320af085a5f5392ed952bdf0613a7d874"/>
+		<Metadata name="DataProcessor.Тестирование" id="6e438cd9-aed4-4e6b-a57d-72b27125cdbb" configVersion="c039d9589ad3dda8946476d70731dcc94f58c9ac"/>
+		<Metadata name="DataProcessor.Тестирование.Form.Форма" id="63d9a181-53a8-4375-ba92-f26b02f98f03" configVersion="2917dd4a304ec175163cee071e6cabcb648743c4"/>
+		<Metadata name="DataProcessor.Тестирование.Form.Форма.Form" id="63d9a181-53a8-4375-ba92-f26b02f98f03.0" configVersion="a6014968ca0d6b4e367fab10156d0770f7e0a48c"/>
+		<Metadata name="DataProcessor.Тестирование.Form.ФормаВыбораПродавца" id="436f05c2-2168-4980-8ace-cf72c84974b9" configVersion="4e5d1230e3d6bf1641ef99693d862913618af523"/>
+		<Metadata name="DataProcessor.Тестирование.Form.ФормаВыбораПродавца.Form" id="436f05c2-2168-4980-8ace-cf72c84974b9.0" configVersion="1206de669bb729d1a288393f6e80f2d4251221ec"/>
+		<Metadata name="DataProcessor.Тестирование.Template.МакетЗадание1" id="05b00f3c-41a1-4522-b6c5-d87019ecf790" configVersion="ada3b626d3eed957b803ff8d5207e1b89237476f"/>
+		<Metadata name="DataProcessor.Тестирование.Template.МакетЗадание1.Template" id="05b00f3c-41a1-4522-b6c5-d87019ecf790.0" configVersion="c38fe1352696df02eb1788edcae3aafee373db7d"/>
+		<Metadata name="DataProcessor.Тестирование.Template.МакетЗадание2" id="f6c43e50-46d7-41d5-a85c-27601d850ea8" configVersion="937b2b802694938e560d64cc9e985b80055b7cd2"/>
+		<Metadata name="DataProcessor.Тестирование.Template.МакетЗадание2.Template" id="f6c43e50-46d7-41d5-a85c-27601d850ea8.0" configVersion="b60dcbc2f3fc08080e236d6f233e426204655d7d"/>
+		<Metadata name="DataProcessor.Тестирование.Template.МакетЗадание3" id="1ea6db19-da30-45b9-9cc1-0e351df496ba" configVersion="72d97b45bb80f12f6b3a1778913028596486eb0c"/>
+		<Metadata name="DataProcessor.Тестирование.Template.МакетЗадание3.Template" id="1ea6db19-da30-45b9-9cc1-0e351df496ba.0" configVersion="aeb126cf925b821d2bc7814c461d09763d1037b5"/>
+		<Metadata name="Language.Русский" id="78dd4b77-163f-4c50-b43f-50f24e3ba7b1" configVersion="142dcf51f2ff4e7a8f520126d8f44dcc71182308"/>
+		<Metadata name="Role.Расш1_ОсновнаяРоль" id="0800cc3f-ff1b-4d00-ad91-22770b31153c" configVersion="a77e24f4cf2837c316c6d4ecacbcf9a67ba8049b"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

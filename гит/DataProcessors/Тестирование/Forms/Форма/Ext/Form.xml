@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="ChoiceProcessing">ОбработкаВыбораЗначения</Event>
+		<Event name="NotificationProcessing">ПриОповещении</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="СтраницыЗадания" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы задания</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы задания</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыЗаданияРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="СтраницаЗадание1" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задание1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница задание1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаЗадание1РасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<Pages name="СтраницыТЗ" id="63">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы ТЗ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы ТЗ</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
+							<ExtendedTooltip name="СтраницыТЗРасширеннаяПодсказка" id="64"/>
+							<ChildItems>
+								<Page name="Задание1Исходная" id="65">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Исходная</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Задание1 исходная</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="Задание1ИсходнаяРасширеннаяПодсказка" id="66"/>
+									<ChildItems>
+										<Table name="ТаблицаЗаданиеИсходная1" id="11">
+											<Representation>List</Representation>
+											<RowSelectionMode>Cell</RowSelectionMode>
+											<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>ТаблицаЗаданиеИсходная1</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ТаблицаЗаданиеИсходная1КонтекстноеМеню" id="12"/>
+											<AutoCommandBar name="ТаблицаЗаданиеИсходная1КоманднаяПанель" id="13">
+												<Autofill>false</Autofill>
+											</AutoCommandBar>
+											<ExtendedTooltip name="ТаблицаЗаданиеИсходная1РасширеннаяПодсказка" id="14"/>
+											<SearchStringAddition name="ТаблицаЗаданиеИсходная1СтрокаПоиска" id="15">
+												<AdditionSource>
+													<Item>ТаблицаЗаданиеИсходная1</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТаблицаЗаданиеИсходная1СтрокаПоискаКонтекстноеМеню" id="16"/>
+												<ExtendedTooltip name="ТаблицаЗаданиеИсходная1СтрокаПоискаРасширеннаяПодсказка" id="17"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ТаблицаЗаданиеИсходная1СостояниеПросмотра" id="18">
+												<AdditionSource>
+													<Item>ТаблицаЗаданиеИсходная1</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТаблицаЗаданиеИсходная1СостояниеПросмотраКонтекстноеМеню" id="19"/>
+												<ExtendedTooltip name="ТаблицаЗаданиеИсходная1СостояниеПросмотраРасширеннаяПодсказка" id="20"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ТаблицаЗаданиеИсходная1УправлениеПоиском" id="21">
+												<AdditionSource>
+													<Item>ТаблицаЗаданиеИсходная1</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ТаблицаЗаданиеИсходная1УправлениеПоискомКонтекстноеМеню" id="22"/>
+												<ExtendedTooltip name="ТаблицаЗаданиеИсходная1УправлениеПоискомРасширеннаяПодсказка" id="23"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="ТаблицаЗаданиеИсходная1Код" id="24">
+													<DataPath>ТаблицаЗаданиеИсходная1.Код</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
+													<ContextMenu name="ТаблицаЗаданиеИсходная1КодКонтекстноеМеню" id="25"/>
+													<ExtendedTooltip name="ТаблицаЗаданиеИсходная1КодРасширеннаяПодсказка" id="26"/>
+												</InputField>
+												<InputField name="ТаблицаЗаданиеИсходная1Наименование" id="27">
+													<DataPath>ТаблицаЗаданиеИсходная1.Наименование</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
+													<ContextMenu name="ТаблицаЗаданиеИсходная1НаименованиеКонтекстноеМеню" id="28"/>
+													<ExtendedTooltip name="ТаблицаЗаданиеИсходная1НаименованиеРасширеннаяПодсказка" id="29"/>
+												</InputField>
+												<InputField name="ТаблицаЗаданиеИсходная1Период" id="30">
+													<DataPath>ТаблицаЗаданиеИсходная1.Период</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
+													<ContextMenu name="ТаблицаЗаданиеИсходная1ПериодКонтекстноеМеню" id="31"/>
+													<ExtendedTooltip name="ТаблицаЗаданиеИсходная1ПериодРасширеннаяПодсказка" id="32"/>
+												</InputField>
+												<InputField name="ТаблицаЗаданиеИсходная1Цена" id="33">
+													<DataPath>ТаблицаЗаданиеИсходная1.Цена</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
+													<ContextMenu name="ТаблицаЗаданиеИсходная1ЦенаКонтекстноеМеню" id="34"/>
+													<ExtendedTooltip name="ТаблицаЗаданиеИсходная1ЦенаРасширеннаяПодсказка" id="35"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+								<Page name="Задание1Результат" id="67">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Результат</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Задание1 результат</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="Задание1РезультатРасширеннаяПодсказка" id="68"/>
+									<ChildItems>
+										<Table name="ТаблицаЗаданиеРезультат" id="36">
+											<Representation>List</Representation>
+											<RowSelectionMode>Cell</RowSelectionMode>
+											<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>ТаблицаЗаданиеРезультат1</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ТаблицаЗаданиеРезультатКонтекстноеМеню" id="37"/>
+											<AutoCommandBar name="ТаблицаЗаданиеРезультатКоманднаяПанель" id="38">
+												<Autofill>false</Autofill>
+												<ChildItems>
+													<Button name="ВыполнитьЗадание1" id="69">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ВыполнитьЗадание1</CommandName>
+														<ExtendedTooltip name="ВыполнитьЗадание1РасширеннаяПодсказка" id="70"/>
+													</Button>
+													<Button name="ВыполнитьЗадание11" id="73">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ВыполнитьЗадание11</CommandName>
+														<ExtendedTooltip name="ВыполнитьЗадание11РасширеннаяПодсказка" id="74"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="ТаблицаЗаданиеРезультатРасширеннаяПодсказка" id="39"/>
+											<SearchStringAddition name="ТаблицаЗаданиеРезультатСтрокаПоиска" id="40">
+												<AdditionSource>
+													<Item>ТаблицаЗаданиеРезультат</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТаблицаЗаданиеРезультатСтрокаПоискаКонтекстноеМеню" id="41"/>
+												<ExtendedTooltip name="ТаблицаЗаданиеРезультатСтрокаПоискаРасширеннаяПодсказка" id="42"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ТаблицаЗаданиеРезультатСостояниеПросмотра" id="43">
+												<AdditionSource>
+													<Item>ТаблицаЗаданиеРезультат</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТаблицаЗаданиеРезультатСостояниеПросмотраКонтекстноеМеню" id="44"/>
+												<ExtendedTooltip name="ТаблицаЗаданиеРезультатСостояниеПросмотраРасширеннаяПодсказка" id="45"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ТаблицаЗаданиеРезультатУправлениеПоиском" id="46">
+												<AdditionSource>
+													<Item>ТаблицаЗаданиеРезультат</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ТаблицаЗаданиеРезультатУправлениеПоискомКонтекстноеМеню" id="47"/>
+												<ExtendedTooltip name="ТаблицаЗаданиеРезультатУправлениеПоискомРасширеннаяПодсказка" id="48"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="ТаблицаЗаданиеРезультат2Код" id="49">
+													<DataPath>ТаблицаЗаданиеРезультат1.Код</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
+													<ContextMenu name="ТаблицаЗаданиеРезультат2КодКонтекстноеМеню" id="50"/>
+													<ExtendedTooltip name="ТаблицаЗаданиеРезультат2КодРасширеннаяПодсказка" id="51"/>
+												</InputField>
+												<InputField name="ТаблицаЗаданиеРезультат2Наименование" id="52">
+													<DataPath>ТаблицаЗаданиеРезультат1.Наименование</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
+													<ContextMenu name="ТаблицаЗаданиеРезультат2НаименованиеКонтекстноеМеню" id="53"/>
+													<ExtendedTooltip name="ТаблицаЗаданиеРезультат2НаименованиеРасширеннаяПодсказка" id="54"/>
+												</InputField>
+												<InputField name="ТаблицаЗаданиеРезультат2Период" id="55">
+													<DataPath>ТаблицаЗаданиеРезультат1.Период</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
+													<ContextMenu name="ТаблицаЗаданиеРезультат2ПериодКонтекстноеМеню" id="56"/>
+													<ExtendedTooltip name="ТаблицаЗаданиеРезультат2ПериодРасширеннаяПодсказка" id="57"/>
+												</InputField>
+												<InputField name="ТаблицаЗаданиеРезультат2Цена" id="58">
+													<DataPath>ТаблицаЗаданиеРезультат1.Цена</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
+													<ContextMenu name="ТаблицаЗаданиеРезультат2ЦенаКонтекстноеМеню" id="59"/>
+													<ExtendedTooltip name="ТаблицаЗаданиеРезультат2ЦенаРасширеннаяПодсказка" id="60"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаЗадание2" id="75">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задание2</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница задание1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаЗадание2РасширеннаяПодсказка" id="76"/>
+					<ChildItems>
+						<Pages name="СтраницыТЗ2" id="77">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы ТЗ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы ТЗ</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
+							<ExtendedTooltip name="СтраницыТЗ2РасширеннаяПодсказка" id="78"/>
+							<ChildItems>
+								<Page name="Задание1Результат1" id="106">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Результат</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Задание1 результат</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="Задание1Результат1РасширеннаяПодсказка" id="107"/>
+									<ChildItems>
+										<Button name="Задание2ДеревоВыполнитьЗадание2" id="127">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ВыполнитьЗадание2</CommandName>
+											<ExtendedTooltip name="Задание2ДеревоВыполнитьЗадание2РасширеннаяПодсказка" id="128"/>
+										</Button>
+										<Table name="Задание2Дерево" id="108">
+											<Representation>Tree</Representation>
+											<RowSelectionMode>Cell</RowSelectionMode>
+											<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>Задание2Дерево</DataPath>
+											<ContextMenu name="Задание2ДеревоКонтекстноеМеню" id="109"/>
+											<AutoCommandBar name="Задание2ДеревоКоманднаяПанель" id="110">
+												<Autofill>false</Autofill>
+											</AutoCommandBar>
+											<ExtendedTooltip name="Задание2ДеревоРасширеннаяПодсказка" id="111"/>
+											<SearchStringAddition name="Задание2ДеревоСтрокаПоиска" id="112">
+												<AdditionSource>
+													<Item>Задание2Дерево</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="Задание2ДеревоСтрокаПоискаКонтекстноеМеню" id="113"/>
+												<ExtendedTooltip name="Задание2ДеревоСтрокаПоискаРасширеннаяПодсказка" id="114"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="Задание2ДеревоСостояниеПросмотра" id="115">
+												<AdditionSource>
+													<Item>Задание2Дерево</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="Задание2ДеревоСостояниеПросмотраКонтекстноеМеню" id="116"/>
+												<ExtendedTooltip name="Задание2ДеревоСостояниеПросмотраРасширеннаяПодсказка" id="117"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="Задание2ДеревоУправлениеПоиском" id="118">
+												<AdditionSource>
+													<Item>Задание2Дерево</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="Задание2ДеревоУправлениеПоискомКонтекстноеМеню" id="119"/>
+												<ExtendedTooltip name="Задание2ДеревоУправлениеПоискомРасширеннаяПодсказка" id="120"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="Задание2ДеревоДата" id="837">
+													<DataPath>Задание2Дерево.Дата</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="Задание2ДеревоДатаКонтекстноеМеню" id="838"/>
+													<ExtendedTooltip name="Задание2ДеревоДатаРасширеннаяПодсказка" id="839"/>
+												</InputField>
+												<InputField name="Задание2ДеревоПредставление" id="841">
+													<DataPath>Задание2Дерево.Представление</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="Задание2ДеревоПредставлениеКонтекстноеМеню" id="842"/>
+													<ExtendedTooltip name="Задание2ДеревоПредставлениеРасширеннаяПодсказка" id="843"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаЗадание3" id="129">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задание3</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница задание1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
+					<ExtendedTooltip name="СтраницаЗадание3РасширеннаяПодсказка" id="130"/>
+					<ChildItems>
+						<Pages name="СтраницыТЗ3" id="131">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы ТЗ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы ТЗ</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
+							<ExtendedTooltip name="СтраницыТЗ3РасширеннаяПодсказка" id="132"/>
+							<ChildItems>
+								<Page name="Задание1Исходная1" id="133">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Исходная</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Задание1 исходная</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<ScrollOnCompress>false</ScrollOnCompress>
+									<ExtendedTooltip name="Задание1Исходная1РасширеннаяПодсказка" id="134"/>
+									<ChildItems>
+										<Table name="ТаблицаЗаданиеИсходная3" id="191">
+											<Representation>List</Representation>
+											<RowSelectionMode>Cell</RowSelectionMode>
+											<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>ТаблицаЗаданиеИсходная3</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ТаблицаЗаданиеИсходная3КонтекстноеМеню" id="192"/>
+											<AutoCommandBar name="ТаблицаЗаданиеИсходная3КоманднаяПанель" id="193">
+												<Autofill>false</Autofill>
+												<ChildItems>
+													<Button name="ТаблицаЗаданиеИсходная3ВыполнитьЗадание3" id="216">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ВыполнитьЗадание3</CommandName>
+														<ExtendedTooltip name="ТаблицаЗаданиеИсходная3ВыполнитьЗадание3РасширеннаяПодсказка" id="217"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="ТаблицаЗаданиеИсходная3РасширеннаяПодсказка" id="194"/>
+											<SearchStringAddition name="ТаблицаЗаданиеИсходная3СтрокаПоиска" id="195">
+												<AdditionSource>
+													<Item>ТаблицаЗаданиеИсходная3</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТаблицаЗаданиеИсходная3СтрокаПоискаКонтекстноеМеню" id="196"/>
+												<ExtendedTooltip name="ТаблицаЗаданиеИсходная3СтрокаПоискаРасширеннаяПодсказка" id="197"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ТаблицаЗаданиеИсходная3СостояниеПросмотра" id="198">
+												<AdditionSource>
+													<Item>ТаблицаЗаданиеИсходная3</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ТаблицаЗаданиеИсходная3СостояниеПросмотраКонтекстноеМеню" id="199"/>
+												<ExtendedTooltip name="ТаблицаЗаданиеИсходная3СостояниеПросмотраРасширеннаяПодсказка" id="200"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ТаблицаЗаданиеИсходная3УправлениеПоиском" id="201">
+												<AdditionSource>
+													<Item>ТаблицаЗаданиеИсходная3</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ТаблицаЗаданиеИсходная3УправлениеПоискомКонтекстноеМеню" id="202"/>
+												<ExtendedTooltip name="ТаблицаЗаданиеИсходная3УправлениеПоискомРасширеннаяПодсказка" id="203"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="ТаблицаЗаданиеИсходная3Код" id="204">
+													<DataPath>ТаблицаЗаданиеИсходная3.Код</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
+													<ContextMenu name="ТаблицаЗаданиеИсходная3КодКонтекстноеМеню" id="205"/>
+													<ExtendedTooltip name="ТаблицаЗаданиеИсходная3КодРасширеннаяПодсказка" id="206"/>
+												</InputField>
+												<InputField name="ТаблицаЗаданиеИсходная3Наименование" id="207">
+													<DataPath>ТаблицаЗаданиеИсходная3.Наименование</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
+													<ContextMenu name="ТаблицаЗаданиеИсходная3НаименованиеКонтекстноеМеню" id="208"/>
+													<ExtendedTooltip name="ТаблицаЗаданиеИсходная3НаименованиеРасширеннаяПодсказка" id="209"/>
+												</InputField>
+												<InputField name="ТаблицаЗаданиеИсходная3Продавец" id="210">
+													<DataPath>ТаблицаЗаданиеИсходная3.Продавец</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
+													<ContextMenu name="ТаблицаЗаданиеИсходная3ПродавецКонтекстноеМеню" id="211"/>
+													<ExtendedTooltip name="ТаблицаЗаданиеИсходная3ПродавецРасширеннаяПодсказка" id="212"/>
+												</InputField>
+												<InputField name="ТаблицаЗаданиеИсходная3Цена" id="213">
+													<DataPath>ТаблицаЗаданиеИсходная3.Цена</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
+													<ContextMenu name="ТаблицаЗаданиеИсходная3ЦенаКонтекстноеМеню" id="214"/>
+													<ExtendedTooltip name="ТаблицаЗаданиеИсходная3ЦенаРасширеннаяПодсказка" id="215"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Тестирование</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТаблицаЗаданиеИсходная1" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица задание исходная1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Код" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Наименование" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Период" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="Цена" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ТаблицаЗаданиеРезультат1" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица задание исходная1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Код" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Наименование" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Период" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="Цена" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Задание2Дерево" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задание2 дерево</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Дата" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="Представление" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ТаблицаЗаданиеИсходная3" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица задание исходная3</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Код" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Наименование" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Продавец" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Продавец</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Цена" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыполнитьЗадание1" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить задание1</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить задание1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьЗадание1</Action>
+		</Command>
+		<Command name="ВыполнитьЗадание11" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить задание11</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить задание11</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьЗадание11</Action>
+		</Command>
+		<Command name="ВыполнитьЗадание2" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить задание2</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить задание2</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьЗадание2</Action>
+		</Command>
+		<Command name="ВыполнитьЗадание3" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить задание3</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить задание3</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьЗадание3</Action>
+		</Command>
+	</Commands>
+</Form>
